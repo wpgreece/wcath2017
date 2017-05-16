@@ -236,7 +236,8 @@ input[type='submit'] {
 	width:100%;
 	margin:8px 0 15px;
 	line-height:1.4;
-	text-shadow:none
+	text-shadow:none;
+	box-shadow: none!important;
 }
 input[type='submit']:hover {
 	background:#0e63d8;
