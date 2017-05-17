@@ -1,10 +1,10 @@
 /************************************** comments ************************************/
 
 /************************************** ADD HERE ANY ADDITIONAL CSS ************************************/
-#secondary {
+/*#secondary {
 	background:#f1f1f1;
 	border-top:10px solid #125080
-}
+}*/
 #primary-sidebar {
 	margin-top:20px
 }
@@ -783,8 +783,14 @@ label{display: block;}
 	margin:0 0 1rem;
 	font-size: 0.875rem;
 }
+
+.widget{
+	 background-color: #fff;
+    border-top: 10px solid #0d47a1;
+    margin: -1rem 0 2.5em;
+    padding: 1em;
+}
 .widget .widget-title {
-	border-bottom:2px solid #1b80cd;
 	font-family:"Roboto", sans-serif;
 	font-size:1.125rem;
 	font-weight:700;
