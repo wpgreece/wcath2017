@@ -504,14 +504,10 @@ article.post,article.page,
 	background-color:#fff;
 	background-position:0 0, 50% 100%;
 	background-repeat:no-repeat, no-repeat;
-	border-radius:2px;
-	-moz-box-shadow:0 0 12px rgba(126,99,88,0.1);
-	-webkit-box-shadow:0 0 12px rgba(126,99,88,0.1);
-	box-shadow:0 0 12px rgba(126,99,88,0.1);
 	margin-bottom:2.53125rem;
 	padding:2.53125rem;
 	padding-bottom:123px;
-	border-top:10px solid #4191ce
+	border-top:10px solid #2196f3;
 }
 .entry-header {
 	margin-bottom:1.5rem
