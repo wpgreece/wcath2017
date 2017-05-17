@@ -247,10 +247,10 @@ input[type='submit']:hover {
 	position:absolute !important
 }
 .home .site-header {
-	height:100vh
+	height:70vh
 }
 .site-header {
-	background:#4191ce url('http://2016.athens.wordcamp.org/files/2016/07/headerimage.jpg') 50% 100% no-repeat;
+	background:#4191ce url('http://2016.athens.wordcamp.org/files/2016/07/headerimage.jpg') 50% 320% no-repeat;
 	background-size:cover !important;
 	margin-bottom:7.75rem;
 	position:relative;
@@ -293,7 +293,7 @@ input[type='submit']:hover {
 .main-navigation {
 	background:#5091FF;
 	bottom:-4.375rem;
-	font-family:"Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 	left:0;
 	position:absolute;
 	text-align:center;
@@ -466,11 +466,12 @@ input[type='submit']:hover {
 	border-top:10px solid #125080
 }
 h1,h2,h3,h4,h5,h6 {
-	font-family:"Roboto Slab", serif
+	font-family: 'Roboto', sans-serif;
 }
+
 #main {
 	margin:1rem auto 2.25rem;
-	max-width:62rem
+	max-width:62rem;
 }
 #main:after {
 	clear:both;
@@ -532,7 +533,7 @@ article.post,article.page,
 }
 .entry-title + .entry-meta {
 	color:#959595;
-	font-family:"Roboto Slab", serif;
+	font-family: 'Roboto', sans-serif;
 	font-size:1rem
 }
 .entry-title + .entry-meta a {
@@ -547,7 +548,7 @@ article.post,article.page,
 	color:#337dba
 }
 .entry-content > p:first-of-type {
-	font-family:"Roboto", serif;
+	font-family: 'Roboto', sans-serif;
 	margin-bottom:1.125rem
 }
 .entry-content blockquote {
@@ -601,7 +602,7 @@ article.post,article.page,
 .entry-content blockquote,.comment-content blockquote {
 	border-bottom:1px solid #1aaacd;
 	border-top:1px solid #1aaacd;
-	font-family:"Roboto Slab", serif;
+	font-family: 'Roboto', sans-serif;
 	font-style:italic;
 	padding:1rem
 }
@@ -790,7 +791,7 @@ label{display: block;}
     padding: 1em;
 }
 .widget .widget-title {
-	font-family:"Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size:1.125rem;
 	font-weight:700;
 	margin:0 0 .66667rem;
@@ -893,7 +894,7 @@ body div.sharedaddy h3.sd-title:before {
 	border-top:1px solid #e3d6ca
 }
 .speaker .speaker-bio > p:first-of-type {
-	font-family:"Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size:1rem;
 	margin-bottom:1rem
 }
@@ -970,7 +971,7 @@ body div.sharedaddy h3.sd-title:before {
 	max-width:60%
 }
 .sponsor .sponsor-description > p:first-of-type {
-	font-family:"Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size:1rem;
 	margin-bottom:1rem
 }
