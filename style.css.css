@@ -24,10 +24,10 @@ h1.entry-title {
 }
 a.genericon::before {
 	color:#155080;
-	transition:all 300ms;
-	-moz-transition:all 300ms;
-	-o-transition:all 300ms;
-	-webkit-transition:all 300ms
+	 -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 a.genericon.genericon-facebook:hover::before {
 	color:#3b5998 !important
@@ -226,10 +226,10 @@ input[type='submit'] {
 	font-weight:400;
 	padding:.6rem 1rem;
 	text-transform:uppercase;
-	-moz-transition:all 300ms;
-	-o-transition:all 300ms;
-	-webkit-transition:all 300ms;
-	transition:all 300ms;
+ -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 	width:100%;
 	margin:8px 0 15px;
 	line-height:1.4;
@@ -314,10 +314,10 @@ input[type='submit']:hover {
 	padding:1.6875rem .66667rem 1.6875rem 0;
 	text-decoration:none;
 	text-transform:none;
-		-moz-transition:all 300ms;
-	-o-transition:all 300ms;
-	-webkit-transition:all 300ms;
-	transition:all 300ms;
+		 -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .main-navigation ul > li a:before {
 	color:#125080;
@@ -437,10 +437,10 @@ input[type='submit']:hover {
 	cursor:pointer;
 	display:block;
 	margin:0 auto;
-	-moz-transition:all 300ms;
-	-o-transition:all 300ms;
-	-webkit-transition:all 300ms;
-	transition:all 300ms
+	 -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 #after-header-widgets .textwidget img:hover {
 	-moz-transform:scale(1.05);
@@ -517,10 +517,10 @@ article.post,article.page,
 	font-size:2.25rem;
 	line-height:1.125;
 	margin-bottom:.66667rem;
-		-moz-transition:all 300ms;
-	-o-transition:all 300ms;
-	-webkit-transition:all 300ms;
-	transition:all 300ms;
+	 -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .entry-title a {
 	color:inherit;
@@ -537,10 +537,10 @@ article.post,article.page,
 .entry-title + .entry-meta a {
 	color:#4391d1;
 	text-decoration:none;
-		-moz-transition:all 300ms;
-	-o-transition:all 300ms;
-	-webkit-transition:all 300ms;
-	transition:all 300ms;
+		 -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .entry-title + .entry-meta a:hover {
 	color:#337dba
@@ -639,10 +639,10 @@ article.post,article.page,
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
 	padding:.5rem;
-	-moz-transition:all 300ms;
-	-o-transition:all 300ms;
-	-webkit-transition:all 300ms;
-	transition:all 300ms;
+	 -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 	width:100%
 }
 .entry-content input[type='text']:focus,.entry-content input[type='email']:focus,.entry-content textarea:focus,.comment-content input[type='text']:focus,.comment-content input[type='email']:focus,.comment-content textarea:focus {
@@ -740,10 +740,10 @@ label{display: block;}
 	font-weight:700;
 	padding:.44444rem .75rem;
 	text-transform:uppercase;
-	-moz-transition:all 300ms;
-	-o-transition:all 300ms;
-	-webkit-transition:all 300ms;
-	transition:all 300ms;
+	 -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .comment-reply-link:hover {
 	background:#e97067;
@@ -760,10 +760,10 @@ label{display: block;}
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
 	padding:.5rem;
-	-moz-transition:all 300ms;
-	-o-transition:all 300ms;
-	-webkit-transition:all 300ms;
-	transition:all 300ms;
+	 -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 	width:100%
 }
 #primary-sidebar input[type='text']:focus,#primary-sidebar input[type='email']:focus {
@@ -805,10 +805,10 @@ label{display: block;}
 .widget li a {
 	color:#125080;
 	text-decoration:none;
-	-moz-transition:all 300ms;
-	-o-transition:all 300ms;
-	-webkit-transition:all 300ms;
-	transition:all 300ms;
+	 -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .main-navigation ul > li a:hover {
 	color:#125080!important;
