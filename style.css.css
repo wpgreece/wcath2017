@@ -983,9 +983,9 @@ body div.sharedaddy h3.sd-title:before {
 	text-indent:100%;
 	white-space:nowrap;
 	overflow:hidden;
-	-webkit-background-size:100% auto;
-	-moz-background-size:100% auto;
-	background-size:100% auto
+	-webkit-background-size:80% auto;
+	-moz-background-size:80% auto;
+	background-size:80% auto
 }
 @media print,screen and (min-width: 768px) {
 	.home .site-title {
