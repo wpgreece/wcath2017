@@ -15,6 +15,10 @@ h1.entry-title {
 	float:none;
 	position:relative
 }
+#primary-sidebar input[type='text'], #primary-sidebar input[type='email']{
+	text-align: center;
+}
+
 .widget_wpcom_social_media_icons_widget .genericon {
 	font-size:24px !important;
 	background-color:#fff;
