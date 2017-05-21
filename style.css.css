@@ -386,6 +386,17 @@ input[type='submit']:hover {
 	border-bottom:5px solid #83bcb3;
 	display:none
 }
+
+.main-small-navigation .menu-toggle:before {
+  content: "\f333";
+    display: inline-block;
+    font: normal 30px/1 'dashicons';
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #253350;
+    color: #fff;
+
+}
 .main-small-navigation .menu-toggle {
 	cursor:pointer;
 	display:inline-block;
