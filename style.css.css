@@ -378,7 +378,6 @@ input[type='submit']:hover {
 }
 .main-small-navigation {
 	background:rgba(255,255,255,0.95);
-	position:relative; /* Problem with mobile menu */
 	width:100%;
 	bottom:0
 }
@@ -387,16 +386,6 @@ input[type='submit']:hover {
 	display:none
 }
 
-.main-small-navigation .menu-toggle:before {
-  content: "\f333";
-    display: inline-block;
-    font: normal 30px/1 'dashicons';
-    margin: 0 auto;
-    padding: 0px;
-    background-color: transparent;
-    color: #2196f3;
-
-}
 .main-small-navigation .menu-toggle {
 	cursor:pointer;
 	display:inline-block;
@@ -413,6 +402,20 @@ input[type='submit']:hover {
 	display:block;
 	padding:.75rem 0
 }
+.menu-toggle {
+    padding: 1rem;
+    margin: 0;
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .05em;
+    color: #e6aa50;
+    background-color: rgba(45,40,45,.9);
+    cursor: pointer;
+}
+
+
 .sub-menu a {
 	color:#5091FF !important
 }
