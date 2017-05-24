@@ -392,9 +392,9 @@ input[type='submit']:hover {
     display: inline-block;
     font: normal 30px/1 'dashicons';
     margin: 0 auto;
-    padding: 10px;
-    background-color: #253350;
-    color: #fff;
+    padding: 0px;
+    background-color: transparent;
+    color: #2196f3;
 
 }
 .main-small-navigation .menu-toggle {
