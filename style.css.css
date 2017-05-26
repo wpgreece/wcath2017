@@ -366,11 +366,14 @@ input[type='submit']:hover {
 	display:none;
 	padding:.66667rem 1.125rem;
 	position:absolute;
-	/*top:4em;*/
+	top:4em;
 	width:auto;
 }
 .main-navigation ul ul li {
 	display:block
+}
+.main-navigation ul ul li a {
+	color:#fff!important;
 }
 .main-navigation ul ul a {
 	padding:.75rem 0;
