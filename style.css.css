@@ -356,7 +356,7 @@ input[type='submit']:hover {
 	border-top-color:#0d47a1;
 }
 .main-navigation ul > li.menu-item-has-children > a:hover:after {
-	border-color:#0d47a1;
+	border-color:#fff;
 }
 .main-navigation ul li:hover ul {
 	display:block
@@ -566,7 +566,7 @@ article.post,article.page,
 	font-size:1rem
 }
 .entry-title + .entry-meta a {
-	color:#4391d1;
+	color:#1e88e5;
 	text-decoration:none;
 		 -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
