@@ -350,7 +350,7 @@ input[type='submit']:hover {
 	border-top-color:#0d47a1;
 }
 .main-navigation ul > li.menu-item-has-children > a:hover:after {
-	border-color:#0d47a1;
+	border-color:#fff;
 }
 .main-navigation ul li:hover ul {
 	display:block
