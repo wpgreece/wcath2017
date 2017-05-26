@@ -1,8 +1,7 @@
 /************************************** ADD HERE ANY ADDITIONAL CSS ************************************/
-/*#secondary {
-	background:#f1f1f1;
-	border-top:10px solid #125080
-}*/
+/* JETBACK CSS */
+
+
 #primary-sidebar {
 	margin-top:20px
 }
@@ -469,7 +468,7 @@ h1,h2,h3,h4,h5,h6 {
 
 #main {
 	margin:1rem auto 2.25rem;
-	max-width:62rem;
+	max-width:71.25rem;
 }
 #main:after {
 	clear:both;
