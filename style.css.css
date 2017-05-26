@@ -362,12 +362,13 @@ input[type='submit']:hover {
 	display:block
 }
 .main-navigation ul ul {
-	background:rgba(255,255,255,1);
+	background-color:#1e88e5;
 	display:none;
 	padding:.66667rem 1.125rem;
 	position:absolute;
 	top:4em;
-	width:auto
+	width:auto;
+	border-bottom: 2px solid #fff;
 }
 .main-navigation ul ul li {
 	display:block
