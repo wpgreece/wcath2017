@@ -364,8 +364,18 @@ input[type='submit']:hover {
 	width:auto;
 }
 .main-navigation ul ul li {
-	display:block
+	display:block;
+	position: relative;
 }
+
+.main-navigation ul ul li::before {
+	position: absolute;
+	width: 100%;
+	border-top:2px solid #fff;
+	display: block;
+	top:0;
+}
+
 .main-navigation ul ul li a {
 	color:#fff!important;
 }
