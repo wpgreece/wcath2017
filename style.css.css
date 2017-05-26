@@ -302,13 +302,14 @@ input[type='submit']:hover {
 	display:block
 }
 .main-navigation {
-	background:#5091FF;
+	background:#fff;
 	bottom:-4.375rem;
 	font-family: 'Roboto', sans-serif;
 	left:0;
 	position:absolute;
 	text-align:center;
-	width:100%
+	width:100%;
+	border-bottom:4px solid #0d47a1;
 }
 .main-navigation ul {
 	margin:0 auto;
@@ -332,11 +333,7 @@ input[type='submit']:hover {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.main-navigation ul > li a:before {
-	color:#125080;
-	content:'/';
-	margin-right:.75rem
-}
+
 .main-navigation ul > li:first-child a:before {
 	content:''
 }
