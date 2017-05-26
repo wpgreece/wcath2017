@@ -353,10 +353,10 @@ input[type='submit']:hover {
 	height:0;
 	width:0;
 	border:4px solid transparent;
-	border-top-color:#fff;
+	border-top-color:#0d47a1;
 }
 .main-navigation ul > li.menu-item-has-children > a:hover:after {
-	border-color:#fff;
+	border-color:#0d47a1;
 }
 .main-navigation ul li:hover ul {
 	display:block
@@ -366,7 +366,7 @@ input[type='submit']:hover {
 	display:none;
 	padding:.66667rem 1.125rem;
 	position:absolute;
-	top:5em;
+	top:4.5em;
 	width:auto;
 }
 .main-navigation ul ul li {
@@ -380,7 +380,7 @@ input[type='submit']:hover {
 	white-space:nowrap;
 	text-align:left;
 	color:#fff!important;
-  border-top: 2px solid #fff;
+
 }
 
 .main-navigation ul ul a:before {
@@ -594,7 +594,8 @@ article.post,article.page,
 }
 .entry-content h1,.entry-content h2,.entry-content h3,.entry-content h4,.entry-content h5,.entry-content h6,.comment-content h1,.comment-content h2,.comment-content h3,.comment-content h4,.comment-content h5,.comment-content h6 {
 	line-height:1.125;
-	margin:2.25rem 0 .75rem
+	margin:2.25rem 0 .75rem;
+	font-weight: 700;
 }
 .entry-content h1,.comment-content h1 {
 	font-size:2.53125rem
