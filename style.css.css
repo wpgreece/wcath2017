@@ -368,7 +368,6 @@ input[type='submit']:hover {
 	position:absolute;
 	top:4em;
 	width:auto;
-	border-bottom: 2px solid #fff;
 }
 .main-navigation ul ul li {
 	display:block
@@ -376,7 +375,9 @@ input[type='submit']:hover {
 .main-navigation ul ul a {
 	padding:.75rem 0;
 	white-space:nowrap;
-	text-align:left
+	text-align:left;
+	color:#fff;
+	border-bottom: 2px solid #fff;
 }
 .main-navigation ul ul a:before {
 	content:'';
