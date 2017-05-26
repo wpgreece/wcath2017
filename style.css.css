@@ -350,7 +350,7 @@ input[type='submit']:hover {
 	border-top-color:#fff;
 }
 .main-navigation ul > li.menu-item-has-children > a:hover:after {
-	border-top-color:#e97067
+	border-color:#fff;
 }
 .main-navigation ul li:hover ul {
 	display:block
@@ -374,7 +374,7 @@ input[type='submit']:hover {
 	white-space:nowrap;
 	text-align:left;
 	color:#fff!important;
-  border-bottom: 1px solid #fff;
+  border-top: 2px solid #fff;
 }
 
 .main-navigation ul ul a:before {
