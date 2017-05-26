@@ -776,6 +776,7 @@ label{display: block;}
 	-webkit-border-radius: 0px;
 -moz-border-radius: 0px;
 border-radius: 0px;
+font-size: 0.875rem;
 }
 #primary-sidebar input[type='text']:focus,#primary-sidebar input[type='email']:focus {
 	background:#fff;
