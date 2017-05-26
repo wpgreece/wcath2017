@@ -783,7 +783,8 @@ label{display: block;}
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-	width:100%
+	width:100%;
+	text-align: left;
 }
 #primary-sidebar input[type='text']:focus,#primary-sidebar input[type='email']:focus {
 	background:#fff;
