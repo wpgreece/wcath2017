@@ -5,7 +5,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
 	-webkit-border-radius: 0px;
 -moz-border-radius: 0px;
 border-radius: 0px;
-	
+
 }
 /* JETBACK CSS */
 
@@ -773,6 +773,9 @@ label{display: block;}
   transition: all 0.3s ease;
 	width:100%;
 	text-align: left;
+	-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
 }
 #primary-sidebar input[type='text']:focus,#primary-sidebar input[type='email']:focus {
 	background:#fff;
