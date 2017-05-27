@@ -346,7 +346,7 @@ input[type='submit']:hover {
 	padding-right:1rem
 }
 .main-navigation ul > li.menu-item-has-children > a:after {
- 	content: '▾';
+ 	content: '';
 	position:absolute;
 	top:50%;
 	right:.2963rem;
