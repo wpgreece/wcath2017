@@ -44,7 +44,7 @@ li.share-twitter a.sd-button > span,
 li.share-linkedin a.sb-button > span
 {
 border: none;
-color: #fff;
+color: #fff!important;
 font-family: 'verdana', arial;
 font-size: 6px;
 font-size: .6rem;
@@ -91,7 +91,7 @@ background: #006392;
  
  
 .sd-content .sd-button span.share-count {
-color: #fff !important;
+color: #fff!important;
 font-size: 100% !important;
 }
  
