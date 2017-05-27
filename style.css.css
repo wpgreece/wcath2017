@@ -994,7 +994,8 @@ font-weight: 300;
 }
 body div.sharedaddy h3.sd-title {
 	font-size:1.125rem;
-	margin:1rem 0 .75rem
+	margin:1rem 0 .75rem;
+	display: block!important;
 }
 body div.sharedaddy h3.sd-title:before {
 	border-top:0 none;
