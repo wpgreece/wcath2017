@@ -352,7 +352,7 @@ input[type='submit']:hover {
 	z-index: 1;
 }
 .main-navigation ul > li.menu-item-has-children > a:hover:after {
-	border-top-color:#1e88e5;
+	border-top-color:#fff!important;
 	z-index: 1;
 }
 .main-navigation ul li:hover ul {
