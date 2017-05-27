@@ -793,10 +793,11 @@ label{display: block;}
 -moz-border-radius: 0px;
 border-radius: 0px;
 font-size: 0.875rem;
+font-weight: 300;
 }
 #primary-sidebar input[type='text']:focus,#primary-sidebar input[type='email']:focus {
-	background:#fff;
-	outline:none
+	   box-shadow: 0 0 6px rgba(0, 200, 222, 0.25);
+    background-color: #fafafa; 
 }
 #primary-sidebar input[type='submit'] {
 	display:inline-block
