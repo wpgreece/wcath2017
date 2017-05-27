@@ -313,6 +313,7 @@ input[type='submit']:hover {
 .main-navigation ul li.current-menu-item > a,.main-navigation ul li.current_page_item > a,.main-navigation ul li.current_page_ancestor > a,.main-navigation ul li.current-menu-parent > a {
 	color:#fff;
 	background-color: #0d47a1;
+	z-index: -1;
 }
 .main-navigation ul > li {
 	display:inline-block
@@ -339,7 +340,7 @@ input[type='submit']:hover {
 	padding-right:1rem
 }
 .main-navigation ul > li.menu-item-has-children > a:after {
-	content:'';
+ 	content: '▾';
 	position:absolute;
 	top:50%;
 	right:.2963rem;
@@ -347,10 +348,12 @@ input[type='submit']:hover {
 	height:0;
 	width:0;
 	border:4px solid transparent;
-	border-top-color:#fff;
+	border-top-color:#0d47a1;
+	z-index: 1;
 }
 .main-navigation ul > li.menu-item-has-children > a:hover:after {
 	border-top-color:#1e88e5;
+	z-index: 1;
 }
 .main-navigation ul li:hover ul {
 	display:block
