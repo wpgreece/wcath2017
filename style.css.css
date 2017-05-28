@@ -8,8 +8,16 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
 -moz-border-radius: 0px;
 border-radius: 0px;
 }
-/* COMMENTS AREA */
 
+/* NAVIGATION */
+.sub-menu .menu-item
+{
+	border-top: 1px solid #fff;
+    margin: 0;
+    width: 100%;
+}
+
+/* COMMENTS AREA */
 .comment-subscription-form .subscribe-label{
 font-size: 0.875rem;
     line-height: 24px;
@@ -115,6 +123,7 @@ color: #fff!important;
 font-size: 100% !important;
 }
  
+/* THEME CSS*/
 
 #primary-sidebar {
 	margin-top:20px
