@@ -334,7 +334,6 @@ box-shadow: -5px 5px 0px 0px rgba(13,72,161,1)!important;
 	margin:14px 0 15px;
 	line-height:1.4;
 	text-shadow:none;
-	box-shadow: none!important;
 }
 input[type='submit']:hover {
 	background:#0e63d8;
