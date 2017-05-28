@@ -11,10 +11,13 @@ border-radius: 0px;
 .sub-menu .menu-item
 {
 	border-top: 1px solid #fff;
-    margin: 0;
-    width: 100%;
+    width:250px;
 }
-
+.sub-menu a{
+	padding-left:1.5rem;
+    padding-right:1.5rem;
+}
+ 
 /* COMMENTS AREA */
 .comment-subscription-form .subscribe-label{
 font-size: 0.875rem;
@@ -475,9 +478,9 @@ input[type='submit']:hover {
 .main-navigation ul ul {
 	background-color:#1e88e5;
 	display:none;
-	padding:.66667rem 1.125rem;
+	padding:0;
 	position:absolute;
-	top:4.5em;
+	top:4.8em;
 	width:auto;
 }
 .main-navigation ul ul li {
