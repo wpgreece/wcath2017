@@ -9,6 +9,11 @@ border-radius: 0px;
 
 
 /* JETBACK CSS */
+#sharing_email .sharing_send, .sd-content ul li .option a.share-ustom, .sd-content ul li a.sd-button, .sd-content ul li.advanced a.share-more, .sd-content ul li.preview-item div.option.option-smart-off a, .sd-social-icon .sd-content ul li a.sd-button, .sd-social-icon-text .sd-content ul li a.sd-button, .sd-social-official .sd-content > ul > li .digg_button > a, .sd-social-official .sd-content > ul > li > a.sd-button, .sd-social-text .sd-content ul li a.sd-button
+{
+	background-color: transparent!important;
+}
+
 div.sharedaddy div.sd-block {
 border-top: 1px solid rgba(0,0,0,0.13);
 border-top-width: 1px;
