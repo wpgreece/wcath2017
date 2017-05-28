@@ -9,6 +9,11 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
 border-radius: 0px;
 }
 
+input#searchsubmit{
+	-webkit-box-shadow: -5px 5px 0px 0px rgba(13,72,161,1);
+-moz-box-shadow: -5px 5px 0px 0px rgba(13,72,161,1);
+box-shadow: -5px 5px 0px 0px rgba(13,72,161,1);
+}
 
 /* JETBACK CSS */
 #sharing_email .sharing_send, .sd-content ul li .option a.share-ustom, .sd-content ul li a.sd-button, .sd-content ul li.advanced a.share-more, .sd-content ul li.preview-item div.option.option-smart-off a, .sd-social-icon .sd-content ul li a.sd-button, .sd-social-icon-text .sd-content ul li a.sd-button, .sd-social-official .sd-content > ul > li .digg_button > a, .sd-social-official .sd-content > ul > li > a.sd-button, .sd-social-text .sd-content ul li a.sd-button
