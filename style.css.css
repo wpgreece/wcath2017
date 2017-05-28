@@ -8,10 +8,16 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
 -moz-border-radius: 0px;
 border-radius: 0px;
 }
+/* COMMENTS AREA */
 
+.comment-subscription-form .subscribe-label{
+font-size: 0.875rem;
+    line-height: 24px;
+}
 input[type="text"], textarea {
 border-radius: 0px!important;
 }
+
 .comments-area textarea{
 	border: 1px solid #d7d7d7;
 }
