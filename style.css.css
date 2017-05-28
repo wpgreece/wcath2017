@@ -475,22 +475,21 @@ input[type='submit']:hover {
 	z-index: 1;
 }
 .main-navigation ul li:hover ul {
-	display:block
+	display:block;
+	
 }
 .main-navigation ul ul {
 	background-color:#1e88e5;
 	display:none;
 	padding:0;
 	position:absolute;
-	top:4.8em;
+	top:4.5em;
 	width:auto;
 }
 .main-navigation ul ul li {
 	display:block;
 	
 }
-
-
 
 .main-navigation ul ul li a {
 	color:#fff!important;
