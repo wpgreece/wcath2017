@@ -920,22 +920,22 @@ font-weight: 300;
 }
 .widget p {
 	line-height:1.5;
-	margin:0 0 1rem;
+	margin:0 0 1em;
 	font-size: 0.875rem;
 }
 
 .widget{
 	 background-color: #fff;
     border-top: 10px solid #0d47a1;
-    margin: -1.1rem 0 2.5em;
-    padding: 1em;
+    margin: -1.1em 0 2.5em;
+    padding: 1.5em;
 }
 .widget .widget-title {
 	font-family: 'Roboto', sans-serif;
 	font-size:1.125rem;
 	font-weight:700;
-	margin:0 0 .66667rem;
-	padding:0 0 .66667rem;
+	margin:0 0 .66667em;
+	padding:0 0 .66667em;
 	text-transform:uppercase
 }
 .widget li {
