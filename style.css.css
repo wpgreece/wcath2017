@@ -28,6 +28,7 @@ border-radius: 0px;
 .menu > li > a {
     border-bottom: 1px solid #fff;
     width: 100%;
+    color:#fff;
 }
 /* COMMENTS AREA */
 .comment-subscription-form .subscribe-label{
