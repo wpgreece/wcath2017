@@ -529,6 +529,7 @@ width:auto!important;
 	width:100%;
 	top:0;
 	position: absolute;
+	background-color: #1e88e5;
 }
 .main-small-navigation .menu-primary-container > ul {
 	border-bottom:5px solid #83bcb3;
