@@ -20,8 +20,10 @@ border-radius: 0px;
 	color:#1e88e5!important;
 }
 
-
-
+.main-small-navigation .menu{
+	background-color: #1e88e5;
+   
+}
 /* COMMENTS AREA */
 .comment-subscription-form .subscribe-label{
 font-size: 0.875rem;
