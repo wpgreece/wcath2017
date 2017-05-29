@@ -21,8 +21,8 @@ border-radius: 0px;
 .menu-main-menu-container ul{
 	background-color: #1e88e5;
 }
-.menu-main-menu-container ul li{
-	color:#fff;
+.menu-main-menu-container ul li a{
+	color:#fff!important;
 }
 
 
