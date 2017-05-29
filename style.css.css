@@ -520,7 +520,7 @@ width:auto!important;
 	margin-right:0
 }
 .main-small-navigation {
-	/*background-color: #1e88e5;*/
+	background-color: #1e88e5;
 	position:absolute;
 	width:100%;
 	top:0;
@@ -535,7 +535,7 @@ width:auto!important;
 	font-size:1.5rem;
 	padding:1rem;
 	width:auto;
-	/*background-color: #0d47a1;*/
+	background-color: #0d47a1;
 }
 .main-small-navigation ul {
 	text-align:left;
