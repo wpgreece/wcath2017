@@ -1167,8 +1167,8 @@ body div.sharedaddy h3.sd-title:before {
 
 @media screen and (max-width: 480px){
 	.home .site-title {
-		width:150px;
-		height:200px
+		width:240px;
+		height:240px
 	}
 }
 @media print,screen and (min-width: 768px) {
