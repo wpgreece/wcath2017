@@ -655,6 +655,13 @@ h1,h2,h3,h4,h5,h6 {
 		float:left;
 		width:70%
 	}
+	#secondary {
+		float:right;
+		width:30%
+	}
+	.home .site-header{
+		height: 80vh;
+	}
 }
 #secondary {
 	-moz-box-sizing:border-box;
@@ -662,12 +669,7 @@ h1,h2,h3,h4,h5,h6 {
 	box-sizing:border-box;
 	padding:0 1rem
 }
-@media screen and (min-width: 576px) {
-	#secondary {
-		float:right;
-		width:30%
-	}
-}
+
 article.post,article.page,
 .single-wcb_sponsor article {
 	background-color:#fff;
