@@ -20,11 +20,14 @@ border-radius: 0px;
 	color:#1e88e5!important;
 }
 
-.main-small-navigation .menu{
-	background-color: #1e88e5;
-}
-.menu > li a{
+
+.menu ul li a{
 	color:#fff;
+}
+
+.menu > li > a {
+    border-bottom: 1px solid #fff;
+    width: 100%;
 }
 /* COMMENTS AREA */
 .comment-subscription-form .subscribe-label{
@@ -523,7 +526,6 @@ width:auto!important;
 	margin-right:0
 }
 .main-small-navigation {
-	background:rgba(255,255,255,0.95);
 	width:100%;
 	top:0;
 	position: absolute;
@@ -548,20 +550,6 @@ width:auto!important;
 	display:block;
 	padding:.75rem 0
 }
-.menu-toggle {
-    padding: 1rem;
-    margin: 0;
-    font-size: 1em;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: .05em;
-    color: #fff;
-    background-color: #1e88e5;
-    cursor: pointer;
-}
-
-
 .sub-menu a {
 	color:#5091FF !important
 }
