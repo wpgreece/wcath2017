@@ -10,10 +10,14 @@ border-radius: 0px;
 }
 
 /* NAVIGATION */
-.sub-menu .menu-item
-{
+.sub-menu .menu-item{
 	border-top: 1px solid #fff;
     width:250px;
+}
+
+.main-navigation ul ul a:hover{
+	background-color: #fff;
+	color:#1e88e5;
 }
 
 /* COMMENTS AREA */
@@ -504,6 +508,7 @@ input[type='submit']:hover {
 	color:#fff!important;
 width:auto!important;
 }
+
 
 .main-navigation ul ul a:before {
 	content:'';
@@ -1025,7 +1030,7 @@ body div.sharedaddy h3.sd-title {
 body div.sharedaddy h3.sd-title:before {
 	border-top:0 none;
 	margin-bottom:0
-	
+
 }
 .wcorg-organizer {
 	border-bottom:1px solid #e3d6ca
