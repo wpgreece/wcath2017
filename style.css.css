@@ -18,11 +18,14 @@ border-radius: 0px;
 	color:#1e88e5!important;
 }
 
-.main-small-navigation .menu{
-	background-color: #1e88e5;
-}
-.menu > li a{
+
+.menu ul li a{
 	color:#fff;
+}
+
+.menu > li > a {
+    border-bottom: 1px solid #fff;
+    width: 100%;
 }
 /* COMMENTS AREA */
 .comment-subscription-form .subscribe-label{
@@ -517,7 +520,7 @@ width:auto!important;
 	margin-right:0
 }
 .main-small-navigation {
-	background:rgba(255,255,255,0.95);
+		background-color: #1e88e5;
 	position:absolute;
 	width:100%;
 	top:0;
