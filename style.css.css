@@ -520,7 +520,8 @@ width:auto!important;
 .main-small-navigation {
 	background:rgba(255,255,255,0.95);
 	width:100%;
-	bottom:0
+	top:0;
+	position: absolute;
 }
 .main-small-navigation .menu-primary-container > ul {
 	border-bottom:5px solid #83bcb3;
@@ -529,10 +530,9 @@ width:auto!important;
 
 .main-small-navigation .menu-toggle {
 	cursor:pointer;
-	display:inline-block;
-	font-size:1.125rem;
+	font-size:1.5rem;
 	padding:1rem;
-	width:auto
+	width:auto;
 }
 .main-small-navigation ul {
 	text-align:left;
