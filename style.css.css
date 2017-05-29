@@ -20,16 +20,16 @@ border-radius: 0px;
 	color:#1e88e5!important;
 }
 
-
-.menu ul li a{
+.main-small-navigation ul li a{
 	color:#fff!important
 }
 
-.menu > li > a {
+.main-small-navigation > li > a {
     border-bottom: 1px solid #fff;
     width: 100%;
     color:#fff;
 }
+
 /* COMMENTS AREA */
 .comment-subscription-form .subscribe-label{
 font-size: 0.875rem;
