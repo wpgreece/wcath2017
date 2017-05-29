@@ -992,9 +992,7 @@ textarea:focus,
 	color:#fff!important;
 	background-color: #1e88e5!important;
 }
-.widget li a:hover {
-	color:#125080!important;
-}
+
 .site-info {
 	background:#5091FF;
 	padding:3.79688rem 1rem;
