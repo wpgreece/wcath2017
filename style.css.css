@@ -13,10 +13,11 @@ border-radius: 0px;
     width:250px;
 }
 
-.main-navigation ul ul a:hover{
-	background-color: #fff;
-	color:#1e88e5;
+.main-navigation ul ul li a:hover {
+	background-color: #fff!important;
+	color:#1e88e5!important;
 }
+
 
 /* COMMENTS AREA */
 .comment-subscription-form .subscribe-label{
@@ -495,6 +496,8 @@ input[type='submit']:hover {
 	padding-left:1rem;
 	padding-right: 1rem;
 }
+
+
 .main-navigation ul ul a {
 	padding:.75rem 0;
 	white-space:nowrap;
