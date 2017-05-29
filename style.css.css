@@ -46,8 +46,6 @@ display: none;
 }
  
 div.sharedaddy .sd-content {
-float: left;
-margin-top: 10px;
 margin-top: 1rem;
 }
  
@@ -423,7 +421,10 @@ input[type='submit']:hover {
 	max-width:62rem;
 	padding:0 1rem
 }
-.main-navigation ul li.current-menu-item > a,.main-navigation ul li.current_page_item > a,.main-navigation ul li.current_page_ancestor > a,.main-navigation ul li.current-menu-parent > a {
+.main-navigation ul li.current-menu-item > a,
+.main-navigation ul li.current_page_item > a,
+.main-navigation ul li.current_page_ancestor > a,
+.main-navigation ul li.current-menu-parent > a {
 	color:#fff;
 	background-color: #0d47a1;
 	z-index: -1;
@@ -1004,6 +1005,7 @@ body div.sharedaddy h3.sd-title {
 body div.sharedaddy h3.sd-title:before {
 	border-top:0 none;
 	margin-bottom:0
+	
 }
 .wcorg-organizer {
 	border-bottom:1px solid #e3d6ca
