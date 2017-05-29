@@ -541,6 +541,18 @@ width:auto!important;
 	padding:1rem;
 	width:auto;
 }
+.menu-toggle{
+	padding: 1rem;
+	margin:0;
+	font-size: 1rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: .05em;
+	color: #fff;
+	background-color: #1e88e5;
+	cursor: pointer;
+}
 .main-small-navigation ul {
 	text-align:left;
 	padding:0 1rem 1rem
