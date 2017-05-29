@@ -520,7 +520,7 @@ width:auto!important;
 	margin-right:0
 }
 .main-small-navigation {
-		background-color: #1e88e5;
+	background-color: #1e88e5;
 	position:absolute;
 	width:100%;
 	top:0;
@@ -545,6 +545,7 @@ width:auto!important;
 	display:block;
 	padding:.75rem 0
 }
+
 .sub-menu a {
 	color:#5091FF !important
 }
