@@ -383,7 +383,7 @@ input[type='submit']:hover {
 	position:absolute !important
 }
 .home .site-header {
-	height:60vh
+	height:60vh;
 }
 .site-header {
 	background:#4191ce url('http://2016.athens.wordcamp.org/files/2016/07/headerimage.jpg') 50% 320% no-repeat;
@@ -659,9 +659,7 @@ h1,h2,h3,h4,h5,h6 {
 		float:right;
 		width:30%
 	}
-	.home .site-header{
-		height: 80vh;
-	}
+	
 }
 #secondary {
 	-moz-box-sizing:border-box;
