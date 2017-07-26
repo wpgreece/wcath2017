@@ -719,7 +719,7 @@ article.post,article.page,
 	color:#337dba
 }
 .entry-content > p:first-of-type {
-	font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif!important;
 	margin-bottom:1.125rem
 }
 .entry-content blockquote {
