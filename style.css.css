@@ -425,7 +425,7 @@ input[type='submit']:hover {
 }
 
 .site-header hgroup {
-	padding:5% 0
+	padding:1% 0
 }
 
 .site-header img {
@@ -433,7 +433,7 @@ input[type='submit']:hover {
 }
 
 .page .site-header {
-    background: #4191ce url('http://2016.athens.wordcamp.org/files/2016/07/headerimage.jpg') 50% 50% no-repeat;
+    background: #4191ce url('http://2016.athens.wordcamp.org/files/2016/07/headerimage.jpg') 50% 80% no-repeat;
     background-size: cover !important;
     margin-bottom: 7.75rem;
     position: relative;
