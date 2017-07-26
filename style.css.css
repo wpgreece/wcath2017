@@ -246,11 +246,6 @@ a.genericon-youtube:hover::before {
 	width: 100%;
 }
 
-/*widget*/
-
-aside #text-5{
-	background-color:#F3F7FA!important;
-}
 
 /*******************************************************************************************************/
 
@@ -595,7 +590,8 @@ width:auto!important;
 	float:left;
 	margin:0 auto 1rem;
 	padding:0 1rem;
-	width:50%
+	width:50%;
+	background-color: #F3F7FA;
 }
 @media screen and (min-width: 576px) {
 	#after-header-widgets .widget {
