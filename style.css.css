@@ -383,10 +383,10 @@ input[type='submit']:hover {
 	position:absolute !important
 }
 .home .site-header {
-	height:60vh;
+	height:80vh;
 }
 .site-header {
-	background:#4191ce url('http://2016.athens.wordcamp.org/files/2016/07/headerimage.jpg') 50% 320% no-repeat;
+	background:#4191ce url('https://2017.athens.wordcamp.org/files/2017/07/headerimage2017_840.jpg') 50% 100% no-repeat;
 	background-size:cover !important;
 	-webkit-background-size: cover!important;
   -moz-background-size: cover!important;
