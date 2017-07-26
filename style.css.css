@@ -1188,7 +1188,8 @@ body div.sharedaddy h3.sd-title:before {
 	overflow:hidden;
 	-webkit-background-size:80% auto;
 	-moz-background-size:80% auto;
-	background-size:80% auto
+	background-size: 95% auto;
+	background-position: top center;
 }
 
 @media screen and (max-width: 480px){
