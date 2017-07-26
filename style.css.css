@@ -592,6 +592,7 @@ width:auto!important;
 	padding:0 1rem;
 	width:50%;
 	background-color: #F3F7FA;
+	border:none!important;
 }
 @media screen and (min-width: 576px) {
 	#after-header-widgets .widget {
