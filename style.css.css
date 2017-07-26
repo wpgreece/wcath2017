@@ -418,6 +418,7 @@ input[type='submit']:hover {
 	text-align:center;
 	background-attachment: fixed;
 }
+
 .home .site-header hgroup {
 	position:relative;
 	top:50%;
@@ -443,7 +444,6 @@ input[type='submit']:hover {
     text-align: center;
 }
 
-
 .single .site-header {
     background: #4191ce url('http://2016.athens.wordcamp.org/files/2016/07/headerimage.jpg') 50% 80% no-repeat;
     background-size: cover !important;
@@ -454,7 +454,6 @@ input[type='submit']:hover {
     position: relative;
     text-align: center;
 }
-
 
 .menu-primary-nav-container {
 	width:800px;
