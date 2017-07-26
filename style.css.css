@@ -58,7 +58,6 @@ border-top-style: solid;
 border-top-color: rgba(0,0,0,0.13);
 padding: 0;
 }
- 
 .single-format-quote  div.sharedaddy div.sd-block {
 display: none;
 }
@@ -221,7 +220,6 @@ a.genericon-youtube:hover::before {
     display: block;
     margin-left: 70px;
     font-size: 16px!important;
-    /* width: 100%; */
 }
 
 .single-wcb_speaker .entry-meta {
