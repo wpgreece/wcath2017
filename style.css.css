@@ -31,6 +31,7 @@ border-radius: 0px;
     width: 100%;
     color:#fff;
 }
+
 /* COMMENTS AREA */
 .comment-subscription-form .subscribe-label{
 font-size: 0.875rem;
@@ -139,9 +140,11 @@ font-size: 100% !important;
 #primary-sidebar {
 	margin-top:20px
 }
+
 h1.entry-title {
 	color:#212121
 }
+
 .main-navigation li {
 	float:none;
 	position:relative
@@ -347,6 +350,7 @@ a {
 a:hover {
 	color:#0e63d8
 }
+
 input[type='text'],input[type='email'],textarea {
 	font-family:inherit;
 	font-size:inherit;
@@ -1294,7 +1298,6 @@ aside#text-6 h4 {
 }
 
 /****************************************** FOOTER *********************************************/
-
 
 footer.entry-meta .cat-links:before,footer.entry-meta .tag-links:before,footer.entry-meta .comments-link:before,footer.entry-meta .edit-link:before,.post-navigation .nav-previous:before {
 	background:transparent url('https://2017.athens.wordcamp.org/files/2017/05/cropped-wordcamp.png');
