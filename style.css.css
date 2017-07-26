@@ -9,7 +9,6 @@
 	overflow:hidden;
 }
 
-
 .embed-youtube iframe,
 .embed-youtube object,
 .embed-youtube embed{
@@ -407,6 +406,7 @@ input[type='submit']:hover {
 .home .site-header {
 	height:80vh;
 }
+
 .site-header {
 	background:#4191ce url('https://2017.athens.wordcamp.org/files/2017/07/headerimage2017_840.jpg') 50% 100% no-repeat;
 	background-size:cover !important;
@@ -423,15 +423,17 @@ input[type='submit']:hover {
 	top:50%;
 	transform:translateY(-50%)
 }
+
 .site-header hgroup {
-	padding:1% 0
+	padding:5% 0
 }
+
 .site-header img {
 	max-width:80%
 }
 
 .page .site-header {
-    background: #4191ce url('http://2016.athens.wordcamp.org/files/2016/07/headerimage.jpg') 50% 80% no-repeat;
+    background: #4191ce url('http://2016.athens.wordcamp.org/files/2016/07/headerimage.jpg') 50% 50% no-repeat;
     background-size: cover !important;
     margin-bottom: 7.75rem;
     position: relative;
@@ -451,6 +453,7 @@ input[type='submit']:hover {
 	margin:auto;
 	display:block
 }
+
 .main-navigation {
 	background:#fff;
 	bottom:-4.375rem;
@@ -461,6 +464,7 @@ input[type='submit']:hover {
 	width:100%;
 	border-bottom:4px solid #0d47a1;
 }
+
 .main-navigation ul {
 	margin:0 auto;
 	max-width:62rem;
