@@ -246,6 +246,12 @@ a.genericon-youtube:hover::before {
 	width: 100%;
 }
 
+/*widget*/
+
+aside #text-5{
+	background-color:#F3F7FA!important;
+}
+
 /*******************************************************************************************************/
 
 html,body,div,span,applet,object,iframe,
