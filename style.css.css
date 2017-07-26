@@ -425,7 +425,7 @@ input[type='submit']:hover {
 }
 
 .site-header hgroup {
-	padding:1% 0;
+	padding:5% 0;
 }
 
 .site-header img {
@@ -433,26 +433,23 @@ input[type='submit']:hover {
 }
 
 .page .site-header {
-    background: #4191ce url('https://2016.athens.wordcamp.org/files/2016/07/headerimage.jpg') 50% 80% no-repeat;
+    background: #4191ce url('https://2016.athens.wordcamp.org/files/2016/07/headerimage.jpg') 50% 50% no-repeat;
     background-size: cover !important;
-      -webkit-background-size: cover!important;
-  -moz-background-size: cover!important;
-  -o-background-size: cover!important;
+
     margin-bottom: 7.75rem;
     position: relative;
     text-align: center;
 }
 
 .single .site-header {
-    background: #4191ce url('http://2016.athens.wordcamp.org/files/2016/07/headerimage.jpg') 50% 80% no-repeat;
+    background: #4191ce url('http://2016.athens.wordcamp.org/files/2016/07/headerimage.jpg') 50% 50% no-repeat;
     background-size: cover !important;
-      -webkit-background-size: cover!important;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+   
     margin-bottom: 7.75rem;
     position: relative;
     text-align: center;
 }
+
 
 .menu-primary-nav-container {
 	width:800px;
