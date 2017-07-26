@@ -1,6 +1,9 @@
 /************************************** comments ************************************/
 
 /************************************** ADD HERE ANY ADDITIONAL CSS ************************************/
+.embed-youtube{
+
+}
 
 /* BUTTONS */
 button, html input[type="button"], input[type="reset"], input[type="submit"]{
@@ -8,7 +11,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
 -moz-border-radius: 0px;
 border-radius: 0px;
 }
-
 /* NAVIGATION MENU*/
 .sub-menu .menu-item{
 	border-top: 1px solid #fff;
@@ -29,7 +31,6 @@ border-radius: 0px;
     width: 100%;
     color:#fff;
 }
-
 /* COMMENTS AREA */
 .comment-subscription-form .subscribe-label{
 font-size: 0.875rem;
@@ -38,14 +39,11 @@ font-size: 0.875rem;
 input[type="text"], textarea {
 border-radius: 0px!important;
 }
-
 .comments-area textarea{
 	border: 1px solid #d7d7d7;
 }
 
 /* JETBACK CSS */
-
-
 #sharing_email .sharing_send, .sd-content ul li .option a.share-ustom, .sd-content ul li a.sd-button, .sd-content ul li.advanced a.share-more, .sd-content ul li.preview-item div.option.option-smart-off a, .sd-social-icon .sd-content ul li a.sd-button, .sd-social-icon-text .sd-content ul li a.sd-button, .sd-social-official .sd-content > ul > li .digg_button > a, .sd-social-official .sd-content > ul > li > a.sd-button, .sd-social-text .sd-content ul li a.sd-button
 {
 	background-color: transparent!important;
@@ -247,9 +245,7 @@ a.genericon-youtube:hover::before {
 	width: 100%;
 }
 
-
 /*******************************************************************************************************/
-
 html,body,div,span,applet,object,iframe,
 h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,
 acronym,address,big,cite,code,del,dfn,em,
