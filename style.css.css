@@ -33,6 +33,7 @@ border-radius: 0px;
 }
 
 /* COMMENTS AREA */
+
 .comment-subscription-form .subscribe-label{
 font-size: 0.875rem;
     line-height: 24px;
@@ -64,6 +65,10 @@ display: none;
 div.sharedaddy .sd-content {
 margin-top: 1rem;
 margin-left: -0.2rem!important;
+}
+
+div.sharedaddy .sd-content ul li {
+	margin:0!important;
 }
  
 div.sharedaddy a.sd-button {
