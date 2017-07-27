@@ -1197,9 +1197,9 @@ body div.sharedaddy h3.sd-title:before {
 	text-indent:100%;
 	white-space:nowrap;
 	overflow:hidden;
-	-webkit-background-size:95% auto;
-	-moz-background-size:95% auto;
-	background-size: 95% auto;
+	-webkit-background-size:80% auto;
+	-moz-background-size:80% auto;
+	background-size: 80% auto;
 	background-position: 45px center;
 
 }
