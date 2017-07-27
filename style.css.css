@@ -1022,9 +1022,8 @@ textarea:focus,
 	padding-bottom:.5rem
 }
 .widget li a {
-	color:inherit;
+	color:#1e88e5;
 	text-decoration:none;
-	
 }
 .main-navigation ul > li a:hover {
 	color:#fff!important;
@@ -1198,10 +1197,11 @@ body div.sharedaddy h3.sd-title:before {
 	text-indent:100%;
 	white-space:nowrap;
 	overflow:hidden;
-	-webkit-background-size:80% auto;
-	-moz-background-size:80% auto;
+	-webkit-background-size:95% auto;
+	-moz-background-size:95% auto;
 	background-size: 95% auto;
-	background-position: top center;
+	background-position: 45px center;
+
 }
 
 @media screen and (max-width: 480px){
