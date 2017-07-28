@@ -2,37 +2,38 @@
 
 /************************************** ADD HERE ANY ADDITIONAL CSS ************************************/
 /* Svg Animation*/
-path.animate{
+.animate{
   	stroke-dasharray: 6943.89208984375 6943.89208984375;
 	stroke-dashoffset: 6943.89208984375;
 	stroke-width: 1;
+	 fill: rgba(255,255,255,0);
 	stroke: rgba(255,255,255,1);
-	animation: anim 3s ease-in-out forwards; 
-    -webkit-animation:  anim 3s ease-in-out forwards;
-    -moz-animation:  anim 3s ease-in-out forwards; 
-    -ms-animation:  anim 3s ease-in-out forwards; 
-    -o-animation:  anim 3s ease-in-out forwards; 
+	animation: drawfade 3s ease-in-out forwards; 
+    -webkit-animation:  drawfade 3s ease-in-out forwards;
+    -moz-animation:  drawfade 3s ease-in-out forwards; 
+    -ms-animation:  drawfade 3s ease-in-out forwards; 
+    -o-animation:  drawfade 3s ease-in-out forwards; 
 }
 
-@keyframes anim {
+@keyframes drawfade {
 	85%{stroke-dashoffset: 0; stroke-width: 1;fill: rgba(255,255,255,0);}
 	100%{stroke-dashoffset: 0; stroke-width: 0;fill: rgba(255,255,255,1);}
 }
 
-@-webkit-keyframes anim {
+@-webkit-keyframes drawfade {
 	85%{ stroke-dashoffset: 0; stroke-width: 1; fill: rgba(255,255,255,0);}
-	100%{ stroke-dashoffset: 0; stroke-width: 0; fill: rgba(255,255,255,1);}
+	100%{ stroke-dashoffset: 0; stroke-width: 0; fill: rgba(255,255,255,1); }
 }
 
-@-moz-keyframes anim {
-	85%{ stroke-dashoffset: 0; stroke-width: 1; fill: rgba(255,255,255,0);}
-	100%{ stroke-dashoffset: 0; stroke-width: 0; fill: rgba(255,255,255,1);}
+@-moz-keyframes drawfade {
+	85%{ stroke-dashoffset: 0; stroke-width: 1; fill: rgba(255,255,255,0); 	}
+	100%{ stroke-dashoffset: 0; stroke-width: 0; fill: rgba(255,255,255,1); }
 }
 
 
-@-o-keyframes anim {
-	85%{ stroke-dashoffset: 0; stroke-width: 1; fill: rgba(255,255,255,0);}
-	100%{ stroke-dashoffset: 0; stroke-width: 0;fill: rgba(255,255,255,1);}
+@-o-keyframes drawfade {
+	85%{ stroke-dashoffset: 0; stroke-width: 1; fill: rgba(255,255,255,0); }
+	100%{ stroke-dashoffset: 0; stroke-width: 0;fill: rgba(255,255,255,1); }
 }
 
 
