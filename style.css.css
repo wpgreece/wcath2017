@@ -6,7 +6,8 @@
 @keyframes anim{85%{stroke-dashoffset: 0;stroke-width: 1;fill: rgba(255,255,255,0);} 100%{stroke-dashoffset: 0;stroke-width: 0;fill: rgba(255,255,255,1);}}
 @-moz-keyframes anim{85%{stroke-dashoffset: 0;stroke-width: 1;fill: rgba(255,255,255,0);} 100%{stroke-dashoffset: 0;stroke-width: 0;fill: rgba(255,255,255,1);}}
 @-webkit-keyframes anim{85%{stroke-dashoffset: 0;stroke-width: 1;fill: rgba(255,255,255,0);} 100%{stroke-dashoffset: 0;stroke-width: 0;fill: rgba(255,255,255,1);}}
-@-o-keyframes anim{85%{stroke-dashoffset: 0;stroke-width: 1;fill: rgba(255,255,255,0);} 100%{stroke-dashoffset: 0;stroke-width: 0;fill: rgba(255,255,255,1);}
+@-o-keyframes anim{85%{stroke-dashoffset: 0;stroke-width: 1;fill: rgba(255,255,255,0);} 100%{stroke-dashoffset: 0;stroke-width: 0;fill: rgba(255,255,255,1);}}
+
 
 /* Embed Youtube */
 
