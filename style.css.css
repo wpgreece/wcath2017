@@ -2,11 +2,75 @@
 
 /************************************** ADD HERE ANY ADDITIONAL CSS ************************************/
 /* Svg Animation*/
-.animate{stroke-dasharray: 150 350;stroke-dashoffset: 350;stroke-width: 1;stroke: white;fill: rgba(255,255,255,1);animation: anim 3s ease-in forwards;}
-@keyframes anim{85%{stroke-dashoffset: 0;stroke-width: 1;fill: rgba(255,255,255,0);} 100%{stroke-dashoffset: 0;stroke-width: 0;fill: rgba(255,255,255,1);}}
-@-moz-keyframes anim{85%{stroke-dashoffset: 0;stroke-width: 1;fill: rgba(255,255,255,0);} 100%{stroke-dashoffset: 0;stroke-width: 0;fill: rgba(255,255,255,1);}}
-@-webkit-keyframes anim{85%{stroke-dashoffset: 0;stroke-width: 1;fill: rgba(255,255,255,0);} 100%{stroke-dashoffset: 0;stroke-width: 0;fill: rgba(255,255,255,1);}}
-@-o-keyframes anim{85%{stroke-dashoffset: 0;stroke-width: 1;fill: rgba(255,255,255,0);} 100%{stroke-dashoffset: 0;stroke-width: 0;fill: rgba(255,255,255,1);}}
+.animate{
+  	stroke-dasharray: 6943.89208984375 6943.89208984375;
+	stroke-dashoffset: 6943.89208984375;
+	stroke-width: 1;
+	stroke: white;
+	fill: rgba(255,255,255,0);
+	animation: anim 3s ease-in forwards; 
+    -webkit-animation:  anim 3s ease-in forwards;
+    -moz-animation:  anim 3s ease-in forwards; 
+    -ms-animation:  anim 3s ease-in forwards; 
+    -o-animation:  anim 3s ease-in forwards; 
+    
+}
+
+@keyframes anim {
+	85%{
+		stroke-dashoffset: 0;
+		stroke-width: 1;
+		fill: rgba(255,255,255,0);
+	}
+	100%{
+		stroke-dashoffset: 0;
+		stroke-width: 0;
+			fill: rgba(255,255,255,1);
+	}
+}
+
+@-webkit-keyframes anim {
+	85%{
+		stroke-dashoffset: 0;
+		stroke-width: 1;
+		fill: rgba(255,255,255,0);
+	}
+	100%{
+		stroke-dashoffset: 0;
+		stroke-width: 0;
+			fill: rgba(255,255,255,1);
+	}
+}
+
+@-moz-keyframes anim {
+	85%{
+		stroke-dashoffset: 0;
+		stroke-width: 1;
+		fill: rgba(255,255,255,0);
+	}
+	100%{
+		stroke-dashoffset: 0;
+		stroke-width: 0;
+			fill: rgba(255,255,255,1);
+	}
+}
+
+
+@-o-keyframes anim {
+	85%{
+		stroke-dashoffset: 0;
+		stroke-width: 1;
+		fill: rgba(255,255,255,0);
+	}
+	100%{
+		stroke-dashoffset: 0;
+		stroke-width: 0;
+			fill: rgba(255,255,255,1);
+	}
+}
+
+
+
 
 
 /* Embed Youtube */
