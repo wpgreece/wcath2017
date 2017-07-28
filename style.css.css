@@ -1,6 +1,43 @@
 /************************************** comments ************************************/
 
 /************************************** ADD HERE ANY ADDITIONAL CSS ************************************/
+/* Svg Animation*/
+
+path,polygon{
+	stroke-dasharray: 150 350;
+	stroke-dashoffset: 350;
+	stroke-width: 1;
+	stroke: white;
+	fill: rgba(255,255,255,0);
+	animation: anim 3s ease-in forwards;  
+}
+
+@keyframes anim {
+	85%{
+		stroke-dashoffset: 0;
+		stroke-width: 1;
+		fill: rgba(255,255,255,0);
+	}
+	100%{
+		stroke-dashoffset: 0;
+		stroke-width: 0;
+		fill: white;
+	}
+}
+@keyframes anim2 {
+	50%{
+		stroke-dashoffset: 0;
+		stroke-width: 2; 
+		fill: rgba(255,255,255,0);
+	}
+	75%,100%{
+		stroke-dashoffset: 0;
+		stroke-width: 0;
+		fill: #fff;
+	}
+}
+
+/*Youtube */
 .embed-youtube  {
 	position:relative;
 	padding-bottom:56.25%;
@@ -1192,7 +1229,8 @@ body div.sharedaddy h3.sd-title:before {
 .site-title {
 	width:271px;
 	height:500px;
-	background:url('https://2017.athens.wordcamp.org/files/2017/07/logowcath2017.png') no-repeat;
+	/*background:url('https://2017.athens.wordcamp.org/files/2017/07/logowcath2017.png') no-repeat;*/
+background:url('http://www.vbaimas.com/wp-content/uploads/2017/07/index.html.html');
 	margin:0 auto;
 	text-indent:100%;
 	white-space:nowrap;
@@ -1201,7 +1239,6 @@ body div.sharedaddy h3.sd-title:before {
 	-moz-background-size:85% auto;
 	background-size: 85% auto;
 	background-position: 45px center;
-
 }
 
 @media screen and (max-width: 480px){
