@@ -2,28 +2,11 @@
 
 /************************************** ADD HERE ANY ADDITIONAL CSS ************************************/
 /* Svg Animation*/
-#animate{
-	stroke-dasharray: 150 350;
-	stroke-dashoffset: 350;
-	stroke-width: 1;
-	stroke: white;
-	fill: rgba(255,255,255,0);
-	animation: anim 3s ease-in forwards;  
-}
-
-@keyframes anim{
-	85%{
-		stroke-dashoffset: 0;
-		stroke-width: 1;
-		fill: rgba(255,255,255,0);
-	}
-	100%{
-		stroke-dashoffset: 0;
-		stroke-width: 0;
-		fill: white;
-	}
-}
-
+#animate{stroke-dasharray: 150 350;stroke-dashoffset: 350;stroke-width: 1;stroke: white;fill: rgba(255,255,255,0);animation: anim 3s ease-in forwards;}
+@keyframes anim{85%{stroke-dashoffset: 0;stroke-width: 1;fill: rgba(255,255,255,0);} 100%{stroke-dashoffset: 0;stroke-width: 0;fill: white;}}
+@-moz-keyframes anim{85%{stroke-dashoffset: 0;stroke-width: 1;fill: rgba(255,255,255,0);} 100%{stroke-dashoffset: 0;stroke-width: 0;fill: white;}}
+@-webkit-keyframes anim{85%{stroke-dashoffset: 0;stroke-width: 1;fill: rgba(255,255,255,0);} 100%{stroke-dashoffset: 0;stroke-width: 0;fill: white;}}
+@-o-keyframes anim{85%{stroke-dashoffset: 0;stroke-width: 1;fill: rgba(255,255,255,0);} 100%{stroke-dashoffset: 0;stroke-width: 0;fill: white;}}
 /* Embed Youtube */
 
 .embed-youtube  {
