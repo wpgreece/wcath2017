@@ -2,11 +2,11 @@
 
 /************************************** ADD HERE ANY ADDITIONAL CSS ************************************/
 /* Svg Animation*/
-.animate{
+path.animate{
   	stroke-dasharray: 6943.89208984375 6943.89208984375;
 	stroke-dashoffset: 6943.89208984375;
 	stroke-width: 1;
-	stroke: white;
+	stroke: rgba(255,255,255,1);
 	animation: anim 3s ease-in-out forwards; 
     -webkit-animation:  anim 3s ease-in-out forwards;
     -moz-animation:  anim 3s ease-in-out forwards; 
