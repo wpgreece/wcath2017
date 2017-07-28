@@ -2,7 +2,7 @@
 
 /************************************** ADD HERE ANY ADDITIONAL CSS ************************************/
 /* Svg Animation*/
-path,polygon{
+#animate{
 	stroke-dasharray: 150 350;
 	stroke-dashoffset: 350;
 	stroke-width: 1;
@@ -11,7 +11,7 @@ path,polygon{
 	animation: anim 3s ease-in forwards;  
 }
 
-@keyframes anim {
+@keyframes anim{
 	85%{
 		stroke-dashoffset: 0;
 		stroke-width: 1;
@@ -21,18 +21,6 @@ path,polygon{
 		stroke-dashoffset: 0;
 		stroke-width: 0;
 		fill: white;
-	}
-}
-@keyframes anim2 {
-	50%{
-		stroke-dashoffset: 0;
-		stroke-width: 2; 
-		fill: rgba(255,255,255,0);
-	}
-	75%,100%{
-		stroke-dashoffset: 0;
-		stroke-width: 0;
-		fill: #fff;
 	}
 }
 
@@ -1255,8 +1243,8 @@ body div.sharedaddy h3.sd-title:before {
 }
 @media screen and (min-width: 1024px) {
 	.home .site-title {
-		width:350px;
-		height:850px
+		width:850px;
+		height:850px;
 	}
 }
 @media print,screen and (min-width: 768px) {
