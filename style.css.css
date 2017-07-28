@@ -2,7 +2,6 @@
 
 /************************************** ADD HERE ANY ADDITIONAL CSS ************************************/
 /* Svg Animation*/
-
 path,polygon{
 	stroke-dasharray: 150 350;
 	stroke-dashoffset: 350;
