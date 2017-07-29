@@ -2,38 +2,6 @@
 
 /************************************** ADD HERE ANY ADDITIONAL CSS ************************************/
 /* Svg Animation*/
-path.animate{
-  	stroke-dasharray: 6943.89208984375 6943.89208984375;
-	stroke-dashoffset: 6943.89208984375;
-	stroke-width: 1;
-	stroke: rgba(255,255,255,1);
-	animation: anim 3s ease-in-out forwards; 
-    -webkit-animation:  anim 3s ease-in-out forwards;
-    -moz-animation:  anim 3s ease-in-out forwards; 
-    -ms-animation:  anim 3s ease-in-out forwards; 
-    -o-animation:  anim 3s ease-in-out forwards; 
-}
-
-@keyframes anim {
-	85%{stroke-dashoffset: 0; stroke-width: 1;fill: rgba(255,255,255,0);}
-	100%{stroke-dashoffset: 0; stroke-width: 0;fill: rgba(255,255,255,1);}
-}
-
-@-webkit-keyframes anim {
-	85%{ stroke-dashoffset: 0; stroke-width: 1; fill: rgba(255,255,255,0);}
-	100%{ stroke-dashoffset: 0; stroke-width: 0; fill: rgba(255,255,255,1);}
-}
-
-@-moz-keyframes anim {
-	85%{ stroke-dashoffset: 0; stroke-width: 1; fill: rgba(255,255,255,0);}
-	100%{ stroke-dashoffset: 0; stroke-width: 0; fill: rgba(255,255,255,1);}
-}
-
-
-@-o-keyframes anim {
-	85%{ stroke-dashoffset: 0; stroke-width: 1; fill: rgba(255,255,255,0);}
-	100%{ stroke-dashoffset: 0; stroke-width: 0;fill: rgba(255,255,255,1);}
-}
 
 
 /* Embed Youtube */
@@ -1228,7 +1196,7 @@ body div.sharedaddy h3.sd-title:before {
 
 .site-title {
 	/*background:url('https://2017.athens.wordcamp.org/files/2017/07/logowcath2017.png') no-repeat;*/
-	background:url('http://www.vbaimas.com/wp-content/uploads/2017/07/wcath2017.svg') no-repeat;
+	background:url('http://www.vbaimas.com/wp-content/uploads/2017/07/wcath2017_inline.svg') no-repeat;
 	width:271px;
 	height:500px;
 	margin:0 auto;
