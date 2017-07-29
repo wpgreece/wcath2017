@@ -1245,16 +1245,18 @@ body div.sharedaddy h3.sd-title:before {
 		height:240px
 	}
 }
+
 @media print,screen and (min-width: 768px) {
 	.home .site-title {
 		width:300px;
 		height:380px
 	}
 }
+
 @media screen and (min-width: 1024px) {
 	.home .site-title {
 		width:350px;
-		height:350px;
+		height:450px;
 	}
 }
 @media print,screen and (min-width: 768px) {
