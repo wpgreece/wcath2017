@@ -41,11 +41,6 @@
 	font-size: 0.75rem!important;
 }
 
-/* survey*/
-.PDF_question {
-	display: none!important;
-}
-
 /* table*/
 @media screen and (max-width:768px) {
 table {width:100%; border:none!important;}
