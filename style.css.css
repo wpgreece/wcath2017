@@ -36,6 +36,11 @@
 	100%{ stroke-dashoffset: 0; stroke-width: 0;fill: rgba(255,255,255,1); }
 }
 
+/* caption */
+.wp-caption .wp-caption-text{
+	font-size: 0.75rem!important;
+}
+
 /* table*/
 @media screen and (max-width:768px) {
 	  table,
