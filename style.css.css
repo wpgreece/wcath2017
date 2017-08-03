@@ -37,7 +37,15 @@
 }
 
 /* table*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
+	  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block!important;
+  }
  }
 
 /* Embed Youtube */
