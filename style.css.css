@@ -211,7 +211,9 @@ font-size: 100% !important;
  -webkit-box-shadow: none!important;
   -moz-box-shadow: none!important;
   box-shadow: none!important;
+  padding:1px 8px 8px 5px!important;
 }
+ 
  
 /* THEME CSS*/
 #primary-sidebar {
