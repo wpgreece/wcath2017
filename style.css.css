@@ -115,6 +115,10 @@ border-radius: 0px!important;
 }
 
 /* JETBACK CSS */
+
+.sd-social .sd-button .share-count{
+	border-radius:20px!important; padding:1px 8px!important;
+}
 #sharing_email .sharing_send, .sd-content ul li .option a.share-ustom, .sd-content ul li a.sd-button, .sd-content ul li.advanced a.share-more, .sd-content ul li.preview-item div.option.option-smart-off a, .sd-social-icon .sd-content ul li a.sd-button, .sd-social-icon-text .sd-content ul li a.sd-button, .sd-social-official .sd-content > ul > li .digg_button > a, .sd-social-official .sd-content > ul > li > a.sd-button, .sd-social-text .sd-content ul li a.sd-button
 {
 	background-color: transparent!important;
