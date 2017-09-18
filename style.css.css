@@ -1033,7 +1033,20 @@ textarea:focus,
 	font-size: 0.875rem;
 }
 
-.widget{
+#secondary-sidebar{
+background-color: #fff;
+    border-top: 10px solid #0d47a1;
+    margin: -1.1em 0 2.5em;
+    padding: 1.5em;	
+}
+
+.widget .widget_wpcom_social_media_icons_widget,
+.widget .jetpack_subscription_widget,
+.widget .widget_recent_entries,
+.widget .widget_search,
+.widget .widget_google_translate_widget,
+.widget .widget_twitter_timeline
+{
 	 background-color: #fff;
     border-top: 10px solid #0d47a1;
     margin: -1.1em 0 2.5em;
