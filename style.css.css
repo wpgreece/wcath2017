@@ -1498,7 +1498,15 @@ footer.entry-meta .sep {
 }
 
 footer.entry-meta .tag-links:before {
-    background-position: 0px 4px;	
+    background-position: 0px 4px !important;	
+}
+
+footer.entry-meta .comments-link:before {
+    background-position: 0px 4px !important;	
+}
+
+footer.entry-meta .edit-link:before {
+    background-position: 0px 4px !important;	
 }
 
 footer.entry-meta .cat-links:before, footer.entry-meta .tag-links:before, footer.entry-meta .comments-link:before, footer.entry-meta .edit-link:before, .post-navigation .nav-previous:before {
