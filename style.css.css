@@ -290,9 +290,10 @@ a.genericon-youtube:hover::before {
 
 .page-id-116 #secondary,
 .page-id-129 #secondary {
-	display:none!important;
+	display:none;
 }
 
+.page-id-116 #primary,
 .page-id-129 #primary {
 	width: 100%;
 }
@@ -1499,15 +1500,15 @@ footer.entry-meta .sep {
 }
 
 footer.entry-meta .tag-links:before {
-    background-position: 0px 4px !important;	
+    background-position: 0px 4px !important;
 }
 
 footer.entry-meta .comments-link:before {
-    background-position: 0px 4px !important;	
+    background-position: 0px 4px !important;
 }
 
 footer.entry-meta .edit-link:before {
-    background-position: 0px 4px !important;	
+    background-position: 0px 4px !important;
 }
 
 footer.entry-meta .cat-links:before, footer.entry-meta .tag-links:before, footer.entry-meta .comments-link:before, footer.entry-meta .edit-link:before, .post-navigation .nav-previous:before {
