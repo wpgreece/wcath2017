@@ -288,8 +288,9 @@ a.genericon-youtube:hover::before {
     margin-right: 1rem;
 }
 
+.page-id-116 #secondary,
 .page-id-129 #secondary {
-	display:none;
+	display:none!important;
 }
 
 .page-id-129 #primary {
