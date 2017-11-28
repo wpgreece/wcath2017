@@ -1190,14 +1190,16 @@ body div.sharedaddy h3.sd-title:before {
 	background:#A5C7FF;
 	border:1px solid #fff;
 }
+.wcpt-schedule .wcpt-session-empty,
 .wcpt-schedule .wcpt-session-type-session {
-	background:#fffcf9;
+	background:#fffcf9!important;
 	border:1px solid #fff
 }
 .wcpt-schedule .global-session .wcpt-time {
 	background:#5091ff;
 	color:#fff
 }
+
 .wcpt-schedule .global-session .wcpt-session-type-custom {
 	background:#C5DBFF;
 	border:1px solid #fff
