@@ -46,11 +46,10 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
 border-radius: 0px;
 }
 /* NAVIGATION MENU*/
-.main-navigation ul ul li{
-margin: 0 .0625rem;
+.menu-primary-nav-container ul li{
+    margin: 0 .0625rem;
     display: inline-block;
-    font-size: 18px;
-    font-size: 1.125rem;
+    font-size: 14px;
     line-height: 1.33333em;
     text-align: center;
 }
